@@ -61,7 +61,7 @@ git clone https://github.com/RIP21/react-simplemde-editor.git
 cd react-simplemde-editor
 yarn install
 yarn demo
-open browser at localhost:3000
+open browser at localhost:3333
 ```
 
 ## Usage

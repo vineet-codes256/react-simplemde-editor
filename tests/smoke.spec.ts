@@ -9,7 +9,7 @@ const test = base.extend<TestingLibraryFixtures>(fixtures);
 const { expect } = test;
 
 test("Tests UpdateUsingButtonWithAutofocus behavior", async ({ screen, within }) => {
-  await screen.goto("http://localhost:3000");
+  await screen.goto("http://localhost:3333");
   const container = await screen.findByTestId("autofocus-no-spellchecker");
   const editor = await within(container).findByRole("textbox");
   await editor.fill("hello");
